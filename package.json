@@ -1,0 +1,36 @@
+{
+  "name": "reefbase_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./reefbase/frontend/src/index.js --output-path ./reefbase/frontend/static/frontend",
+    "build": "webpack --mode production ./reefbase/frontend/src/index.js --output-path ./reefbase/frontend/static/frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "source-map-loader": "^1.1.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "axios": "^0.26.1",
+    "butter-toast": "^3.3.5",
+    "prop-types": "^15.8.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-redux": "^7.2.8",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.1"
+  }
+}

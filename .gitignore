@@ -1,0 +1,38 @@
+.venv
+.env
+
+*.log
+*.pot
+*.pyc
+__pycache__
+
+
+# Logs
+logs
+npm-debug.log*
+
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Distribution directories
+dist/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+/reefbase/media/species/
+/reefbase/media/CACHE/
